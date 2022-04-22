@@ -1,0 +1,101 @@
+
+*{
+    padding:0;
+    margin:0
+}
+.list{
+
+    padding:10px;
+    background-color:#363a3f;
+}
+
+.list-item{
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+.brdr a{
+    border: 1px solid ;
+    background-color: #fff;
+    color: rgba(0,0,0,.6);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5%;
+    border-radius:20px
+}
+.list-item a {
+	text-decoration: none;
+}
+.list-item a:hover{
+color:#dcb12e
+}
+.brdr a:hover{
+	background-color:#dcb12e;
+	color:#fff;
+
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color:#363a3f;
+    width:100%
+
+
+}
+footer .follow{
+color:#dcb12e
+}
+footer .navbar-brand img {
+    width: 150px !important;
+    margin-top: 30px;
+}
+footer .Social-media{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    display: flex;
+    background:#dcb12e;
+    height: 30px;
+    width: 30px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s
+}
+footer a i{
+    font-size: 20px;
+    color:#05102e;
+    transition: transform 0.5s;
+}
+
+footer a:hover i{
+    transform: scale(0.90);
+}
+footer a:hover .fa-facebook{
+    color: #3b5998;
+}
+footer a:hover .fa-twitter{
+    color: #00acee;
+}
+footer a:hover .fa-whatsapp{
+    color: #4fce5d;
+}
+footer a:hover .fa-instagram{
+    color: #f14843;
+}
+footer a:hover .fa-youtube{
+    color: #f00;
+}
+/* End Footer */
+
+
+.form-group{
+}

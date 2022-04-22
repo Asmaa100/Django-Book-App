@@ -1,0 +1,9 @@
+//  winpty python manage.py runserver
+
+# def delete_book(request,book_id):
+#     Book.objects.filter(id=book_id).delete()
+#     books=Book.objects.all()
+#     context={
+#         "books":books
+#     }
+#     return render(request, "minBooks/index.html",context=context) 
